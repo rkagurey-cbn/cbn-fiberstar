@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Internet CBN FiberStar - internet cepat dan stabil. Pilihan paket Fiber 20, 100, 150 dan 200. Hubungi Riyan melalui WhatsApp.">
+<title>CBN FiberStar — Internet Cepat & Stabil</title>
+<style>
+:root{
+  --black:#0b0b0d; --dark:#17171a; --gray:#666; --light:#f5f5f5;
+  --white:#fff; --accent:#25d366; --line:#e5e5e5;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:#111;line-height:1.5}
+.container{width:min(1120px,92%);margin:auto}
+header{background:#000;color:#fff;position:sticky;top:0;z-index:20;box-shadow:0 3px 15px #0004}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:24px;font-weight:800;letter-spacing:-1px}
+.logo span{font-weight:400}
+nav a{color:#fff;text-decoration:none;margin-left:22px;font-weight:600;font-size:14px}
+.hero{background:linear-gradient(135deg,#080808 0%,#232323 100%);color:#fff;padding:78px 0 72px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:45px;align-items:center}
+.badge{display:inline-block;background:#fff;color:#000;border-radius:30px;padding:8px 15px;font-weight:800;font-size:12px;margin-bottom:18px}
+h1{font-size:clamp(38px,6vw,70px);line-height:1.02;margin:0 0 20px;letter-spacing:-2px}
+.hero p{font-size:18px;color:#ddd;max-width:650px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:10px;text-decoration:none;font-weight:800;border:2px solid transparent}
+.btn-primary{background:#fff;color:#000}
+.btn-wa{background:var(--accent);color:#061b0c}
+.hero-card{background:#fff;color:#111;border-radius:24px;padding:28px;box-shadow:0 20px 60px #0008}
+.hero-card .speed{font-size:52px;font-weight:900;line-height:1}
+.hero-card small{color:#666}
+.hero-card strong{display:block;font-size:25px;margin-top:12px}
+.section{padding:70px 0}
+.section.alt{background:#f6f6f6}
+.section-title{text-align:center;margin-bottom:38px}
+.section-title h2{font-size:36px;margin:0 0 8px}
+.section-title p{margin:0;color:#666}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.card{border:1px solid var(--line);border-radius:18px;padding:24px;background:#fff;box-shadow:0 8px 25px #0000000a}
+.card h3{margin:0 0 8px;font-size:23px}
+.card .price{font-size:28px;font-weight:900;margin:12px 0}
+.card .speedline{font-weight:700;margin-bottom:15px}
+.card ul{padding-left:19px;color:#555;font-size:14px}
+.card .choose{display:block;text-align:center;margin-top:20px;background:#111;color:#fff;text-decoration:none;padding:11px;border-radius:9px;font-weight:800}
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.feature{background:#fff;border-radius:16px;padding:24px;border:1px solid var(--line)}
+.feature b{font-size:17px}
+.feature p{color:#666;margin-bottom:0}
+.compare{overflow:auto;border-radius:16px;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;min-width:720px;background:#fff}
+th,td{padding:15px;border-bottom:1px solid var(--line);text-align:left}
+th{background:#111;color:#fff}
+tr:last-child td{border-bottom:0}
+.contact{background:#111;color:#fff;border-radius:24px;padding:42px}
+.contact-grid{display:grid;grid-template-columns:1fr auto;align-items:center;gap:25px}
+.contact h2{font-size:36px;margin:0 0 8px}
+.contact p{color:#ccc}
+footer{background:#000;color:#aaa;padding:25px 0;font-size:13px}
+.wa-float{position:fixed;right:18px;bottom:18px;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:27px;box-shadow:0 5px 20px #0005;z-index:30}
+@media(max-width:850px){
+  .hero-grid,.contact-grid{grid-template-columns:1fr}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .feature-grid{grid-template-columns:1fr}
+  nav{display:none}
+}
+@media(max-width:560px){
+  .grid{grid-template-columns:1fr}
+  .hero{padding:55px 0}
+  .section{padding:52px 0}
+  .section-title h2{font-size:29px}
+  .contact{padding:28px}
+  .contact h2{font-size:29px}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="logo">CBN <span>fiber</span> • FIBERSTAR</div>
+    <nav>
+      <a href="#paket">Paket</a>
+      <a href="#keunggulan">Keunggulan</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="badge">INTERNET TERCEPAT & STABIL</span>
+      <h1>Internet cepat.<br>Tanpa ribet.</h1>
+      <p>Pilih paket internet CBN FiberStar sesuai kebutuhan rumah, streaming, kerja, belajar, gaming, dan aktivitas online lainnya.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#paket">Lihat Paket</a>
+        <a class="btn btn-wa" href="https://wa.me/6282142422663?text=Halo%20Riyan,%20saya%20tertarik%20dengan%20paket%20CBN%20FiberStar." target="_blank">💬 Chat WhatsApp</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <small>PAKET POPULER</small>
+      <div class="speed">200+200</div>
+      <div>hingga <b>400 Mbps</b></div>
+      <strong>Rp 381.840 / bulan</strong>
+      <small>Internet Only • Harga pada flyer</small>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="paket">
+  <div class="container">
+    <div class="section-title">
+      <h2>Pilihan Paket Internet</h2>
+      <p>Harga dan benefit mengikuti informasi pada flyer yang Anda berikan.</p>
+    </div>
+
+    <h3>Internet Only</h3>
+    <div class="grid">
+      <div class="card"><h3>Fiber 20</h3><div class="speedline">20+20 • 40 Mbps</div><div class="price">Rp 193.140</div><small>/ bulan</small><a class="choose" href="https://wa.me/6282142422663?text=Saya%20tertarik%20Fiber%2020">Pilih Paket</a></div>
+      <div class="card"><h3>Fiber 100</h3><div class="speedline">100+100 • 200 Mbps</div><div class="price">Rp 226.440</div><small>/ bulan</small><a class="choose" href="https://wa.me/6282142422663?text=Saya%20tertarik%20Fiber%20100">Pilih Paket</a></div>
+      <div class="card"><h3>Fiber 150</h3><div class="speedline">150+150 • 300 Mbps</div><div class="price">Rp 259.740</div><small>/ bulan</small><a class="choose" href="https://wa.me/6282142422663?text=Saya%20tertarik%20Fiber%20150">Pilih Paket</a></div>
+      <div class="card"><h3>Fiber 200</h3><div class="speedline">200+200 • 400 Mbps</div><div class="price">Rp 381.840</div><small>/ bulan</small><a class="choose" href="https://wa.me/6282142422663?text=Saya%20tertarik%20Fiber%20200">Pilih Paket</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-title">
+      <h2>Internet + Booster Speed</h2>
+      <p>Tambahan booster 50 Mbps sesuai informasi flyer.</p>
+    </div>
+    <div class="grid">
+      <div class="card"><h3>Fiber 20</h3><div class="speedline">20+20+50 • 90 Mbps</div><div class="price">Rp 209.790</div><small>/ bulan</small></div>
+      <div class="card"><h3>Fiber 100</h3><div class="speedline">100+100+50 • 250 Mbps</div><div class="price">Rp 243.090</div><small>/ bulan</small></div>
+      <div class="card"><h3>Fiber 150</h3><div class="speedline">150+150+50 • 350 Mbps</div><div class="price">Rp 276.390</div><small>/ bulan</small></div>
+      <div class="card"><h3>Fiber 200</h3><div class="speedline">200+200+50 • 450 Mbps</div><div class="price">Rp 398.490</div><small>/ bulan</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Internet + TV</h2>
+      <p>Termasuk STB Android sesuai paket pada flyer.</p>
+    </div>
+    <div class="compare">
+      <table>
+        <thead><tr><th>Paket</th><th>Kecepatan</th><th>Harga / Bulan</th></tr></thead>
+        <tbody>
+          <tr><td>Fiber 20</td><td>20+20+50 (90 Mbps)</td><td><b>Rp 254.190</b></td></tr>
+          <tr><td>Fiber 100</td><td>100+100+50 (250 Mbps)</td><td><b>Rp 287.490</b></td></tr>
+          <tr><td>Fiber 150</td><td>150+150+50 (350 Mbps)</td><td><b>Rp 320.790</b></td></tr>
+          <tr><td>Fiber 200</td><td>200+200+50 (450 Mbps)</td><td><b>Rp 442.890</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="keunggulan">
+  <div class="container">
+    <div class="section-title">
+      <h2>Kenapa Pilih Paket Ini?</h2>
+      <p>Ringkasan informasi yang tercantum pada materi promosi.</p>
+    </div>
+    <div class="feature-grid">
+      <div class="feature"><b>✓ Harga termasuk PPN 11%</b><p>Harga pada flyer disebut sudah termasuk PPN 11%.</p></div>
+      <div class="feature"><b>✓ Gratis pemasangan / alat</b><p>Materi promosi mencantumkan gratis biaya pemasangan dan alat.</p></div>
+      <div class="feature"><b>✓ Upload & download simetris</b><p>Kecepatan upload dan download disebut simetris 1:1.</p></div>
+      <div class="feature"><b>✓ Router Dual Band</b><p>Menggunakan router Dual Band untuk jangkauan dan kestabilan.</p></div>
+      <div class="feature"><b>✓ Tanpa denda telat bayar</b><p>Flyer mencantumkan keterangan bebas riba.</p></div>
+      <div class="feature"><b>✓ Harga flat</b><p>Materi promosi mencantumkan jaminan harga flat seumur hidup.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="kontak">
+  <div class="container">
+    <div class="contact">
+      <div class="contact-grid">
+        <div>
+          <h2>Siap pasang internet?</h2>
+          <p>Hubungi Riyan untuk cek ketersediaan jaringan, pilihan paket, dan proses pemasangan.</p>
+          <b>WhatsApp: 0821-4242-2663</b>
+        </div>
+        <a class="btn btn-wa" href="https://wa.me/6282142422663?text=Halo%20Riyan,%20saya%20ingin%20cek%20ketersediaan%20CBN%20FiberStar." target="_blank">Chat Sekarang</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">© 2026 Riyan • Informasi paket berdasarkan materi promosi yang diberikan.</div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/6282142422663?text=Halo%20Riyan,%20saya%20tertarik%20CBN%20FiberStar." target="_blank" aria-label="WhatsApp">☏</a>
+</body>
+</html>
